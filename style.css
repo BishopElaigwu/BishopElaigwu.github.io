@@ -429,6 +429,25 @@ body {
     display: grid;
     gap: 1.5rem;
 }
+.project-card-large {
+    grid-column: 1 / -1;         /* Makes it full width across both columns */
+    padding: 1.8rem 1.6rem 1.6rem;
+    min-height: 260px;
+}
+
+.project-card-large .project-desc {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    margin-bottom: 1rem;
+}
+
+.project-card-large .project-bullets li {
+    margin-bottom: 0.5rem;
+}
+
+.project-card-large .project-buttons {
+    margin-top: 1.2rem;
+}
 
 @media (min-width: 800px) {
     .projects-grid {
@@ -622,4 +641,5 @@ body {
     max-width: 500px;
     line-height: 1.4;
 }
+
 
