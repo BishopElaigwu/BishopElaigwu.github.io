@@ -1,315 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bishop Paul Elaigwu • Portfolio</title>
-    <meta name="description" content="Portfolio website for Bishop Paul Elaigwu, Computer Systems Technician – Software Support. QA, Technical Support, and Software Development.">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bishop Paul Elaigwu • Portfolio</title>
+  <meta name="description" content="Portfolio website for Bishop Paul Elaigwu, Computer Systems Technician – Software Support. QA, Technical Support, and Software Development.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 <header class="site-header">
-    <div class="container header-inner">
-        <div class="brand">
-            <span class="brand-name">Bishop Paul Elaigwu</span>
-            <span class="brand-role">Software Support • QA • Dev</span>
-        </div>
-
-        <nav class="main-nav">
-            <a href="#summary">Summary</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
-        </nav>
+  <div class="container header-inner">
+    <div class="brand">
+      <span class="brand-name">Bishop Paul Elaigwu</span>
+      <span class="brand-role">Software Support • QA • Dev</span>
     </div>
+    <nav class="main-nav">
+      <a href="#summary">Summary</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 
 <main>
 
-    <!-- SUMMARY / HERO -->
-    <section id="summary" class="section hero container">
-        <div class="hero-text">
-            <h1 class="headline">
-                Calm under pressure. Obsessed with reliability. Focused on users.
-            </h1>
-            <p class="lead">
-                I’m a Computer Systems Technician – Software Support student at Mohawk College in Hamilton, Ontario.
-                I work at the intersection of technical support, QA testing, and software development.
-                I’ve supported production systems in fast-moving environments, tested features before and after release,
-                and helped real users solve real problems with patience and accuracy.
-            </p>
-            <p class="lead">
-                Right now I’m building hands-on experience with web technologies (HTML, CSS, JavaScript, React),
-                backend / desktop development (C# / .NET), SQL databases, and automation/testing practices.
-                My goal is simple: join a team where I can ship clean features, prevent avoidable issues,
-                and make the support experience feel smooth instead of stressful.
-            </p>
+  <!-- HERO / SUMMARY -->
+  <section id="summary" class="section hero container fade-in">
+    <div class="hero-text">
+      <h1 class="headline">
+        Calm under pressure. <span class="accent">Obsessed with reliability.</span> Focused on users.
+      </h1>
+      <p class="lead">
+        I’m a Computer Systems Technician – Software Support student at Mohawk College, Hamilton. I work at the intersection of technical support, QA testing, and software development.
+      </p>
+      <p class="lead">
+        Right now I’m building hands-on experience with <strong>web technologies (HTML, CSS, JavaScript, React)</strong>, <strong>backend/desktop development (C# / .NET)</strong>, <strong>SQL databases</strong>, and automation/testing practices. My goal: join a team where I can ship clean features, prevent avoidable issues, and make the support experience smooth.
+      </p>
+      <a href="#projects" class="cta-button">See My Work</a>
+    </div>
+    <div class="hero-card">
+      <div class="hero-card-inner">
+        <div class="hero-label">Currently</div>
+        <div class="hero-value">Software Support / QA</div>
+        <div class="hero-label">Based in</div>
+        <div class="hero-value">GTA, Ontario</div>
+        <div class="hero-label">Strengths</div>
+        <div class="hero-value">Troubleshooting • Documentation • Follow-through</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section container fade-in">
+    <h2 class="section-title">Education</h2>
+    <div class="card edu-card hover-outline">
+      <div class="edu-header">
+        <div>
+          <div class="edu-program">Computer Systems Technician – Software Support (Diploma)</div>
+          <div class="edu-school">Mohawk College • Hamilton, Ontario</div>
         </div>
-        <div class="hero-card">
-            <div class="hero-card-inner">
-                <div class="hero-label">Currently</div>
-                <div class="hero-value">Software Support / QA</div>
+        <div class="edu-dates">2023 – 2025 (in progress)</div>
+      </div>
+      <ul class="edu-details">
+        <li>Coursework: Data Structures, Web Programming, C# / .NET, SQL, Software Testing, Project Management.</li>
+        <li>Hands-on labs: debugging, version control, QA test planning, and building production-style features.</li>
+        <li>Professional communication: documenting bugs, raising issues, closing the loop with stakeholders.</li>
+      </ul>
+    </div>
+  </section>
 
-                <div class="hero-label">Based in</div>
-                <div class="hero-value">GTA, Ontario</div>
+  <!-- SKILLS -->
+  <section id="skills" class="section container fade-in">
+    <h2 class="section-title">Technical & Professional Skills</h2>
+    <p class="section-intro">Hover or view skill bars to see my proficiency.</p>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-name">HTML / CSS / Responsive Layout</div>
+        <div class="skill-bar"><div class="skill-level" style="width:90%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">JavaScript / React</div>
+        <div class="skill-bar"><div class="skill-level" style="width:85%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">C# / .NET</div>
+        <div class="skill-bar"><div class="skill-level" style="width:80%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">SQL</div>
+        <div class="skill-bar"><div class="skill-level" style="width:75%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">QA / Testing</div>
+        <div class="skill-bar"><div class="skill-level" style="width:85%;"></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">Technical Support</div>
+        <div class="skill-bar"><div class="skill-level" style="width:90%;"></div></div>
+      </div>
+    </div>
+  </section>
 
-                <div class="hero-label">Strengths</div>
-                <div class="hero-value">Troubleshooting • Documentation • Follow-through</div>
-            </div>
+  <!-- PROJECTS -->
+  <section id="projects" class="section container fade-in">
+    <h2 class="section-title">Selected Projects</h2>
+    <p class="section-intro">Projects reflecting support mindset, testing discipline, and real UI work.</p>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-top">
+          <h3 class="project-title">Northwind Traders ASP.NET MVC Site</h3>
+          <span class="project-tag">C# / MVC / SQL</span>
         </div>
-    </section>
+        <p class="project-desc">Mock commerce site: connected pages to live data, customized views, added privacy statement.</p>
+      </article>
 
-    <!-- EDUCATION -->
-    <section id="education" class="section container">
-        <h2 class="section-title">Education</h2>
-
-        <div class="card edu-card hover-outline">
-            <div class="edu-header">
-                <div>
-                    <div class="edu-program">Computer Systems Technician – Software Support (Diploma)</div>
-                    <div class="edu-school">Mohawk College • Hamilton, Ontario</div>
-                </div>
-                <div class="edu-dates">2023 – 2025 (in progress)</div>
-            </div>
-
-            <ul class="edu-details">
-                <li>Coursework includes: Data Structures, Web Programming (HTML/CSS/JS/React), C# / .NET, SQL databases, Software Testing, and Project Management.</li>
-                <li>Hands-on labs with real debugging, version control, merging branches, QA test planning, and building production-style features under deadlines.</li>
-                <li>Developing professional communication skills: documenting bugs clearly, raising issues respectfully, and closing the loop with stakeholders.</li>
-            </ul>
+      <article class="project-card">
+        <div class="project-top">
+          <h3 class="project-title">Interactive Card Deck (React)</h3>
+          <span class="project-tag">React / State</span>
         </div>
-    </section>
+        <p class="project-desc">Browser app simulating dealing, picking, swapping cards with React state management.</p>
+      </article>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section container">
-        <h2 class="section-title">Technical & Professional Skills</h2>
-
-        <p class="section-intro">
-            Hover over a skill to see what I actually do with it.
-        </p>
-
-        <div class="skills-grid">
-
-            <div class="skill-card rainbow-hover">
-                <div class="skill-name">HTML / CSS / Responsive Layout</div>
-                <div class="skill-desc">
-                    Building accessible, mobile-friendly pages with clean structure and reusable components.
-                </div>
-            </div>
-
-            <div class="skill-card rainbow-hover">
-                <div class="skill-name">JavaScript / React</div>
-                <div class="skill-desc">
-                    Interactive UI work: state management, event handling, component props, conditional rendering, basic DOM debugging.
-                </div>
-            </div>
-
-            <div class="skill-card rainbow-hover">
-                <div class="skill-name">C# / .NET</div>
-                <div class="skill-desc">
-                    Windows Forms apps, object-oriented design, inheritance and polymorphism, and working with data safely.
-                </div>
-            </div>
-
-            <div class="skill-card rainbow-hover">
-                <div class="skill-name">SQL</div>
-                <div class="skill-desc">
-                    Writing queries, inspecting data, validating inserts/updates, and helping diagnose “why is this record wrong?” issues.
-                </div>
-            </div>
-
-            <div class="skill-card rainbow-hover">
-                <div class="skill-name">QA / Testing</div>
-                <div class="skill-desc">
-                    Reviewing requirements, reproducing bugs, documenting steps, verifying fixes, and protecting production before it breaks.
-                </div>
-            </div>
-
-            <div class="skill-card rainbow-hover">
-                <div class="skill-name">Technical Support</div>
-                <div class="skill-desc">
-                    Walking customers through issues without jargon, confirming payment / account states, escalating when needed, and following up.
-                </div>
-            </div>
-
-            <div class="skill-card rainbow-hover">
-                <div class="skill-name">Git / GitHub</div>
-                <div class="skill-desc">
-                    Branching, committing with clear messages, resolving simple merge conflicts, pushing work, and keeping history clean.
-                </div>
-            </div>
-
-            <div class="skill-card rainbow-hover">
-                <div class="skill-name">Tools</div>
-                <div class="skill-desc">
-                    Jira, Visual Studio, IntelliJ IDEA, Excel/Sheets for tracking issues, and Microsoft Project for timelines.
-                </div>
-            </div>
+      <article class="project-card project-card-large">
+        <div class="project-top">
+          <h3 class="project-title">Interactive Card Deck Game (React)</h3>
+          <span class="project-tag">React / JavaScript / UI Logic</span>
         </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section container">
-        <h2 class="section-title">Selected Projects</h2>
-
-        <p class="section-intro">
-            These projects reflect what I’m learning right now — support mindset, testing discipline, and real UI work.
-        </p>
-
-        <div class="projects-grid">
-
-            <article class="project-card ripple-card">
-                <div class="project-top">
-                    <h3 class="project-title">Northwind Traders ASP.NET MVC Site</h3>
-                    <span class="project-tag">C# / MVC / SQL</span>
-                </div>
-                <p class="project-desc">
-                    A mock commerce site where I connected pages to live data, customized views, and added a privacy statement.
-                    Practised controllers, data binding, and making sure every page renders cleanly without errors.
-                </p>
-                <ul class="project-bullets">
-                    <li>Edited Razor views and layout to meet business requirements.</li>
-                    <li>Followed strict assignment rubric and naming rules for grading (real-world compliance mindset).</li>
-                    <li>Handled database connection setup and verified that data showed up in the UI correctly.</li>
-                </ul>
-            </article>
-
-            <article class="project-card ripple-card">
-                <div class="project-top">
-                    <h3 class="project-title">Interactive Card Deck (React)</h3>
-                    <span class="project-tag">React / State</span>
-                </div>
-                <p class="project-desc">
-                    A browser app that simulates dealing, picking, swapping, and regrouping cards using React state.
-                    I wrote click handlers, conditional styling, and logic to prevent bad moves.
-                </p>
-                <ul class="project-bullets">
-                    <li>Used component props and internal state to track picked cards.</li>
-                    <li>Added visual highlight on selection for better usability.</li>
-                    <li>Committed changes in logical steps with descriptive Git messages.</li>
-                </ul>
-            </article>
-
-            <article class="project-card ripple-card">
-                <div class="project-top">
-                    <h3 class="project-title">Hair Salon Pricing Tool (.NET WinForms)</h3>
-                    <span class="project-tag">C# / Desktop UI</span>
-                </div>
-                <p class="project-desc">
-                    A Windows Forms application that calculates service totals based on selected hairdresser and services.
-                    Built to behave like a front desk tool: choose services, see running total, reset.
-                </p>
-                <ul class="project-bullets">
-                    <li>Event-driven C# (button clicks, list selection, etc.).</li>
-                    <li>Clear separation between UI and calculation logic.</li>
-                    <li>Practised defensive programming to avoid crashes on bad input.</li>
-                </ul>
-            </article>
-
-        <article class="project-card project-card-large ripple-card">
-            <div class="project-top">
-                <h3 class="project-title">Interactive Card Deck Game (React)</h3>
-                <span class="project-tag">React / JavaScript / UI Logic</span>
-            </div>
-        
-            <p class="project-desc">
-                A fully interactive card deck simulator built using React functional components,
-                hooks, state management, and pure UI logic — no backend. Users can draw,
-                deal, pick, swap, toss, regroup, add wildcards, and reset the table.
-            </p>
-        
-            <ul class="project-bullets">
-                <li>React Hooks + pure functional components</li>
-                <li>Swap, shuffle, wildcard, toss, reset logic</li>
-                <li>Card highlighting, responsive CSS grid UI</li>
-                <li>Deployed on Netlify</li>
-            </ul>
-        
-            <div class="project-buttons">
-                <a class="project-button" href="https://github.com/BishopElaigwu/CardDeck-React" target="_blank">
-                    Repository
-                </a>
-                <a class="project-button live" href="https://carddecks.netlify.app/" target="_blank">
-                    Live Demo
-                </a>
-            </div>
-        </article>
-
-
-
+        <p class="project-desc">Fully interactive card deck simulator using React hooks, state, and pure UI logic.</p>
+        <div class="project-buttons">
+          <a href="https://github.com/BishopElaigwu/CardDeck-React" target="_blank" class="project-button">Repository</a>
+          <a href="https://carddecks.netlify.app/" target="_blank" class="project-button live">Live Demo</a>
         </div>
-    </section>
+      </article>
+    </div>
+  </section>
 
-    <!-- RESUME -->
-    <section id="resume" class="section container">
-        <h2 class="section-title">Resume</h2>
+  <!-- RESUME -->
+  <section id="resume" class="section container fade-in">
+    <h2 class="section-title">Resume</h2>
+    <div class="card resume-card hover-outline">
+      <p class="resume-text">Download a printable version of my resume here:</p>
+      <a href="resume.pdf" target="_blank" class="resume-button">Download Resume (PDF)</a>
+    </div>
+  </section>
 
-        <div class="card resume-card hover-outline">
-            <p class="resume-text">
-                You can download a printable version of my resume here:
-            </p>
-            <a class="resume-button" href="resume.pdf" target="_blank" rel="noopener noreferrer">
-                Download Resume (PDF)
-            </a>
-
-            <p class="resume-hint">
-                Highlights: technical support in production environments, QA/testing, and software coursework
-                in web, C#, SQL, and project tracking.
-            </p>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section container">
-        <h2 class="section-title">Contact</h2>
-
-        <div class="card contact-card hover-outline">
-            <p class="contact-line">
-                <strong>Email:</strong> <a href="mailto:bishopelaigwu6@gmail.com">bishopelaigwu6@gmail.com</a>
-            </p>
-            <p class="contact-line">
-                <strong>GitHub:</strong> <a href="https://github.com/BishopElaigwu" target="_blank" rel="noopener noreferrer">github.com/BishopElaigwu</a>
-            </p>
-            <p class="contact-line">
-                <strong>Location:</strong> GTA, Ontario
-            </p>
-            <p class="contact-note">
-                I’m open to co-op, internship, part-time technical support, and QA roles.
-            </p>
-        </div>
-    </section>
+  <!-- CONTACT -->
+  <section id="contact" class="section container fade-in">
+    <h2 class="section-title">Contact</h2>
+    <div class="card contact-card hover-outline">
+      <p class="contact-line"><strong>Email:</strong> <a href="mailto:bishopelaigwu6@gmail.com">bishopelaigwu6@gmail.com</a></p>
+      <p class="contact-line"><strong>GitHub:</strong> <a href="https://github.com/BishopElaigwu" target="_blank">github.com/BishopElaigwu</a></p>
+      <p class="contact-line"><strong>Location:</strong> GTA, Ontario</p>
+      <p class="contact-note">Open to co-op, internship, part-time technical support, and QA roles.</p>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
-    <div class="container footer-inner">
-        <div>© <span id="year"></span> Bishop Paul Elaigwu</div>
-        <div class="footer-small">Built with HTML, CSS, and care. Hosted on GitHub Pages for COMP assignment.</div>
-    </div>
+  <div class="container footer-inner">
+    <div>© <span id="year"></span> Bishop Paul Elaigwu</div>
+    <div class="footer-small">Built with HTML, CSS, and care. Hosted on GitHub Pages.</div>
+  </div>
 </footer>
 
 <script>
-    // auto-update footer year
-    document.getElementById("year").textContent = new Date().getFullYear();
+  // Auto-update footer year
+  document.getElementById("year").textContent = new Date().getFullYear();
 
-    // ripple hover animation for project cards
-    document.querySelectorAll(".ripple-card").forEach(card => {
-        card.addEventListener("pointermove", e => {
-            const rect = card.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            card.style.setProperty("--ripple-x", x + "px");
-            card.style.setProperty("--ripple-y", y + "px");
-        });
-    });
+  // Scroll fade-in effect
+  const faders = document.querySelectorAll('.fade-in');
+  const appearOptions = { threshold: 0.3, rootMargin: "0px 0px -50px 0px" };
+  const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('appear');
+          observer.unobserve(entry.target);
+      });
+  }, appearOptions);
+  faders.forEach(fader => appearOnScroll.observe(fader));
 </script>
 </body>
 </html>
-
-
-
-
